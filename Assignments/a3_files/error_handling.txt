@@ -1,0 +1,7 @@
+Types of errors expected
+
+1) Using invalid format style - "?maxwidth on" or "?fmt +4" 
+
+2) Invalid margin sizes given - for example having magin commands which sets the margin to either a negative value or greater than maxwidth - 20
+	dealt by checking for the conditions when "?mrgn" command is detected and set the margin to either 0 or equal to maxwidth - 20 depending on situation
+	

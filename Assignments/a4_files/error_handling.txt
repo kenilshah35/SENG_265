@@ -1,0 +1,7 @@
+Possible errors
+
+-> Allocation of malloc bloc fails:-
+		Have a conditional which checks if the assigned memory block is empty an have it exit the program with an error message.
+
+-> Input to mtf consists of characters outside the 256 specified:-
+		
